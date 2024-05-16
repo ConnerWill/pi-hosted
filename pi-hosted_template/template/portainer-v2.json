@@ -2026,10 +2026,6 @@
 				{
 					"bind": "/var/lib/motioneye",
 					"container": "/var/lib/motioneye"
-				},
-				{
-					"bind": "/portainer/Files/Murmur/log",
-					"container": "/opt/murmur/log"
 				}
 			],
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/ConnerWill/pi-hosted\" target=\"_blank\">https://github.com/ConnerWill/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.mumble.info/\" target=\"_blank\">https://www.mumble.info/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/yhaenggi/murmur-docker\" target=\"_blank\">https://github.com/yhaenggi/murmur-docker</a><br><br><br>"
