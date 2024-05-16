@@ -2004,6 +2004,7 @@
 			"description": "MotionEye is a video surveillance program with motion detection.",
 			"env": [
 			],
+			"hostname": "motioneye",
 			"image": "ccrisan/motioneye:master-armhf",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/motioneye.png",
 			"name": "motioneye",
