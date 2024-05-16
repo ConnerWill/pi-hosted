@@ -2029,7 +2029,7 @@
 					"container": "/var/lib/motioneye"
 				}
 			],
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/ConnerWill/pi-hosted\" target=\"_blank\">https://github.com/ConnerWill/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.mumble.info/\" target=\"_blank\">https://www.mumble.info/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/yhaenggi/murmur-docker\" target=\"_blank\">https://github.com/yhaenggi/murmur-docker</a><br><br><br>"
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/ConnerWill/pi-hosted\" target=\"_blank\">https://github.com/ConnerWill/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/motioneye-project/motioneye\" target=\"_blank\">https://github.com/motioneye-project/motioneye/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/motioneye-project/motioneye/wiki/Install-in-Docker\" target=\"_blank\">https://github.com/motioneye-project/motioneye/wiki/Install-in-Docker</a><br><br><br>"
 		},
 		{
 			"categories": [
