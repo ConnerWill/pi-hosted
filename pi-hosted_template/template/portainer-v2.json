@@ -2005,7 +2005,7 @@
 			"env": [
 			],
 			"image": "ccrisan/motioneye:master-armhf",
-			"logo": "https://raw.githubusercontent.com/motioneye-project/motioneye/main/logo/logo-color.svg",
+			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/motioneye.png",
 			"name": "motioneye",
 			"platform": "linux",
 			"ports": [
