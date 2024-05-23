@@ -175,23 +175,23 @@ write_status "Installing packages: ${INSTALL_PACKAGES[*]}"
 ${APT_CMD} install "${INSTALL_PACKAGES[@]}"
 
 
-## Install docker
-#if is_installed "docker" && [[ -z "${FORCE}" ]]; then
-#  write_error "Docker seems to be already installed. --force is not set"
-#elif is_installed "docker" && [[ -n "${FORCE}" ]]; then
-#  write_warning "Docker seems to be already installed."
-#  write_verbose "Reinstalling anyway due to --force flag"
-#  write_status "Reinstalling docker"
-#  curl -sSL "https://get.docker.com" | sh
-#else
-#  write_status "Installing docker"
-#  curl -sSL "https://get.docker.com" | sh
-#fi
+# Install docker
+if is_installed "docker" && [[ -z "${FORCE}" ]]; then
+ write_error "Docker seems to be already installed. --force is not set"
+elif is_installed "docker" && [[ -n "${FORCE}" ]]; then
+ write_warning "Docker seems to be already installed."
+ write_verbose "Reinstalling anyway due to --force flag"
+ write_status "Reinstalling docker"
+ curl -sSL "https://get.docker.com" | sh
+else
+ write_status "Installing docker"
+ curl -sSL "https://get.docker.com" | sh
+fi
 
 
 ## Create docker group
 write_status "Creating docker group"
-#usermod -aG docker "${USER_NAME}"
+usermod -aG docker "${USER_NAME}"
 
 
 ## Done
